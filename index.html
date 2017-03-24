@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="web page for educational center">
+    <meta name="author" content="fabricio">
+
+    <title>Centro de Estudio</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Yanone+Kaffeesatz" rel="stylesheet">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!--Navigation--->
+    <nav class="navbar navbar-fixed-top navbar-default borde" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle Navigations</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#page-top" class="navbar-brand page-scroll borde fuente1">Centro de Estudio
+
+          </a>
+
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse borde">
+          <ul class="nav navbar-nav navbar-right borde fuente1">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+                <a class="page-scroll borde" href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#servicios">Servicios</a>
+            </li>
+            <li>
+              <a class="page-scroll borde" href="#materias">Materias</a>
+            </li>
+            <li>
+              <a class="page-scroll borde" href="#nosotros">Nosotros</a>
+            </li>
+            <li>
+              <a class="page-scroll borde" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!---Seccion Intro--->
+    <section id="intro" class="intro-section borde">
+      <div class="container borde">
+        <div class="row espaciado borde">
+          <div class="col-lg-6 col-centered borde">
+            <h1 class="fuente1 color1">Educando J&oacute;venes para un Futuro mejor...</h1>
+          </div>
+        </div>
+        <div class="row espaciado borde">
+          <div class="col-lg-6 col-centered borde">
+            <h2 class="fuente1 color1">M&aacute;s de 10 a&ntilde;os de experiencia...</h2>
+          </div>
+        </div>
+        <div class="row espaciado borde">
+          <div class="col-lg-6 col-centered borde">
+            <a href="#servicios" class="page-scroll borde">
+              <img src="img/down-arrow.png" class="arrow" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Seccion Servicios--->
+    <section id="servicios" class="servicios-section borde">
+      <div class="container borde">
+        <div class="row espaciado borde">
+          <div class="col-centered col-lg-12 borde">
+            <p  class="fuente1 color1 mediano">Asistencia y Supervisi&oacute;n personalizada en los siguientes niveles educativos...</p>
+          </div>
+        </div>
+        <div class="row espaciado borde">
+            <div class="col-centered col-lg-12 col--1 borde">
+              <div class="col-lg-3 col-xs-6 borde">
+                <div class="borde col-lg-12 col-md-12 text-center">
+                    <a href="#escolar-basica" data-toggle="modal"><img class="borde icono" src="img/school.png" alt=""></a>
+                </div>
+                <div class="borde col-lg-12 col-md-12">
+                  <p class="borde color1 pequenho fuente2">Escolar B&aacute;sica y  Media</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xs-6 col-md-6">
+                <div class="borde col-lg-12">
+                    <a href="#"><img class="icono" src="img/books.png" alt=""></a>
+                </div>
+                <div class="borde col-lg-12">
+                  <p class="pequenho color1 fuente2">Pre-Universitaria</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xs-6 col-md-6 borde">
+                <div class="borde col-lg-12">
+                    <a href="#"><img class="icono" src="img/brainstorm.png" alt=""></a>
+                </div>
+                <div class="borde col-lg-12">
+                  <p class="pequenho color1 fuente2">Universitaria</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xs-6 col-md-6 borde">
+                <div class="borde col-lg-12">
+                  <a href="#"><img src="img/professor.png" class="icono" alt=""></a>
+                </div>
+                <div class="borde col-lg-12">
+                  <p class="pequenho color1 fuente2">Post-Universitaria</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row borde">
+            <div class="col-lg-12 text-center col-xs-12 borde">
+              <a href="#" data-target="#servicios-detalle" data-toggle="modal">
+                <p class="fuente1 color1 mediano">Adem&aacute;s, contamos con otros servicios...</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Seccion Materias--->
+    <section id="materias" class="materias-section borde">
+      <div class="container borde">
+        <div class="row borde">
+          <div class="col-lg-12 col-centered col-sm-12">
+            <p class="fuente1 color2 mediano">Materias que estudiantes de diferentes &aacute;reas necesitan reforzar...</p>
+          </div>
+        </div>
+        <div class="row espaciado-materias borde">
+          <div class="col-lg-12 col-centered col-sm-12">
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img class="icono" src="img/maths.png" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">Matem&aacute;tica</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img class="icono" src="img/literature.png" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">Castellano</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img class="icono" src="img/magnet.png" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">F&iacute;sica</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img class="icono" src="img/atom.png" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">Qu&iacute;mica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row borde">
+          <div class="col-lg-12 col-centered col-sm-12 borde">
+            <div class="col-lg-3 col-xs-6">
+              <div class="borde">
+                <a href="#"><img src="img/paraguay.png" class="icono" alt=""></a>
+                <div class="borde">
+              </div>
+                <p class="fuente2 color2 pequenho">Guaran&iacute;</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img src="img/estadistica.png" class="icono" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">Estad&iacute;stica</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img src="img/accountant.png" class="icono" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">Contabilidad</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 borde">
+              <div class="borde">
+                <a href="#"><img src="img/laptop.png" class="icono" alt=""></a>
+              </div>
+              <div class="borde">
+                <p class="fuente2 color2 pequenho">Algor&iacute;tmica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row borde espaciado">
+          <div class="col-lg-12 text-center">
+            <a href="#" data-target="#materias-detalle" data-toggle="modal" ><p class="fuente1 color2 mediano">Conozca las materias en detalle...</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Seccion Conozcanos--->
+    <section id="nosotros" class="borde nosotros-section col-sm-12">
+      <div class="container borde">
+        <div class="row espaciado">
+          <div class="col-lg-12">
+            <h1 class="fuente3">Con&oacute;zcanos...</h1>
+          </div>
+        </div>
+        <div class="row espaciado borde">
+          <div class="col-lg-12 col-sm-12">
+            <div class="col-lg-4 col-xs-12 col-md-8 borde">
+              <img src="img/team.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-8 col-xs-12 col-md-4 borde pequenho">
+              <p>Somos un grupo de docentes con m&aacute;s de 15 a&ntilde;os de experiencia en el &aacute;mbito de la ense&ntilde;anza
+              . Egresados de carreras universitarias con fuertes b&aacute;ses en la materias que inpartimos y una dedicaci&oacute;n exclusica a la
+              docencia. Inpartimos clases en colegios publicos y privados por las ma&ntilde;nanas y por la tarde nos dedicamos exclusivamente a
+              la ense&ntilde;anza particular.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row borde">
+          <div class="col-lg-6 text-center">
+            <a href="#" data-toggle="modal" data-target="#nosotros-detalle"><p class="fuente1 color2 mediano">Con&oacute;zcanos m&aacute;s...</p></a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <a href="#" data-toggle="modal" data-target="#el-centro-detalle"><p class="fuente1 color2 mediano">Conozca el centro...</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--- Seccion Contactenos --->
+    <section id="contacto" class="borde contacto-section col-sm-12">
+      <div class="container borde">
+        <div class="row">
+          <div class="col-lg-12 col-centered">
+            <h2 class="fuente1 color2 mediano">Contacte con nosotros...</h2>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 borde fuente2 pequenho">
+            <form class="form-group" action="index.html" method="post">
+              <div class="form-group">
+                <input class="form-control" type="text" name="" value="" placeholder="Su nombre...">
+              </div>
+              <br>
+              <div class="form-group">
+                <input class="form-control" type="email" name="" value="" placeholder="Su correo...">
+              </div>
+              <br>
+              <div class="form-group">
+                <textarea class="form-control" name="" value="" rows="4" placeholder="Su mensaje..."></textarea>
+              </div>
+              <input type="submit" class="btn btn-success form-control" name="" value="Enviar">
+            </form>
+          </div>
+          <div class="col-lg-6 borde">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="row borde">
+          <div class="col-lg-12 borde">
+            <div class="footer">
+              <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      Icons made by
+                        <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+                        <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
+                        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Servicios Modal -->
+    <div id="servicios-detalle" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content borde">
+          <div class="container div-modal">
+            <div class="row espaciado">
+              <div class="col-lg-6 col-xs-6">
+                <h2 class="fuente1">Servicios</h2>
+                <h4>Proporcionamos distintos servicios de  ense&ntilde;anza...</h4>
+              </div>
+              <div class="col-lg-6 col-xs-6">
+                <div class="close-modal borde" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <p class="fuente2 mediano">Ingreso a la Universidad Nacional de Asunci&oacute;n</p>
+                  <!-- <img src="img/paraguay.png" class="icono" alt=""> -->
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Brindamos apoyo y cobertura para examenes de ingreso a la Facultad de Econom&iacute;a,
+                ofrenciendo tres de las materias necesarias
+                para acceder a una Facultad, Matem&aacute;tica, Castellano e Introducci&oacute;n a la Contabilidad; Facultad Polit&eacute;cnica,
+                ofrecemos las materias, Aritmetica y Algebra, Geometria, Geometria Analitica y Calculo, F&iacute;sica y Castellano;
+                Facultad de Qu&iacute;mica, ofrecemos las materias Qu&iacute;mica, F&iacute;sica y Matem&acute;tica; Facultad de Arquitectura, ofrecemos las
+                materias, Comunicaci&oacute;n Oral y Escrita, Matem&aacute;tica y F&iacute;sica ; Facultad de Agronomia, ofrecemos las materias
+                Comunicaci&oacute;, Introducci&oacute;n a la Administraci&oacute;n,Introducci&oacute;n a la Econom&iacute;a, Matem&aacute;tica, F&iacute;sica,
+                Qu&iacute;mica; Facultad de Ciencias Exactas y Naturales, ofrecemos las materias Castellano, Matem&aacute;tica, F&iacute;sica,
+                Qu&iacute;mica; Facultad de Medicina, ofrecemos las materias, ;Facultad de Ingenieria, mediante el desarrollo completo del
+                programa de estudio, desarrollo de examenes, pruebas de tiempo.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered">
+                  <p class="fuente2 mediano">Ingreso a ACADEMIL</p>
+                </div>
+              </div>
+              <div class="col-lg-8 col-xs-6">
+                  <p class="fuente2 pequenho">Apoyo y cobertura en para los examenes de ingreso correspondientes a la Academia Militar(ACADEMIL)
+                    en las siguientes materias, F&iacute;sica, Matem&aacute;tica y Castellano mediante el desarrollo completo del
+                    programa de estudio, desarrollo de examenes, pruebas de tiempo.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <p class="fuente2 mediano">Ingreso al Instituto T&eacute;cnico Superior en Administraci&oacute; Aduanera y
+                  Comercio Internacional</p>
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Brindamos apoyo en las materias Castellano y Matem&acute;matica mediante el desarrollo completo del
+                programa de estudio, desarrollo de examenes, pruebas de tiempo.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <p class="fuente2 mediano">Supervisi&oacute;n y Seguimiento</p>
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Para estudiantes de la Educaci&oacute; Escolar Media como estudiantes universitarios de universidades nacionales
+                y privadas ofrecemos seguimiento y apoyo mediante desarrollo de programas completos, preparaci&oacute;n para examenes finales, soporte
+                en trabajos practicos en las siguientes materias Matem&aacute;tica, Castellano, F&iacute;sica, Qu&iacute;mica, Econom&iacute;a, Contabilidad
+                y Algoritmos. As&iacute; como para programas de postgrado, dependiendo del &aacute; y la materia.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Materias Modal ---->
+    <div class="modal fade" id="materias-detalle" role="dialog">
+      <div class="modal-dialog">
+        <!--- Modal content --->
+        <div class="modal-content">
+          <div class="container borde div-modal">
+            <div class="row borde">
+                <div class="col-lg-6 col-xs-6">
+                    <h2 class="section-heading">Materias</h2>
+                    <h4 class="section-subheading text-muted">Conozca mas acerca de las materias...</h4>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                  <div class="close-modal borde" data-dismiss="modal">
+                      <div class="lr">
+                          <div class="rl">
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-lg-4 col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-lg-4 col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-lg-4 col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 borde col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row borde espaciado">
+              <div class="col-lg-8 borde col-xs-6">
+                <p class="fuente2 pequenho">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-lg-4 col-xs-6">
+                <div class="col-lg-12 col-centered borde">
+                  <img src="img/paraguay.png" class="icono" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row borde espaciado">
+            <div class="col-centered col-lg-1">
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Nosotros Modal --->
+    <div class="modal fade" id="nosotros-detalle" role="dialog">
+      <div class="modal-dialog">
+        <!---Modal content -->
+        <div class="modal-content">
+              <div class="container div-modal">
+                <div class="row borde">
+                    <div class="col-lg-6 col-xs-6">
+                        <h2 class="section-heading">Nosotros</h2>
+                        <h4 class="section-subheading text-muted">Conozca nuestro equipo de trabajo...</h4>
+                    </div>
+                    <div class="col-lg-6 col-xs-6">
+                      <div class="close-modal borde" data-dismiss="modal">
+                          <div class="lr">
+                              <div class="rl">
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row borde espaciado">
+                  <div class="col-lg-4 borde col-xs-6">
+                    <div class="col-lg-12 col-centered borde">
+                      <img src="img/paraguay.png" class="icono" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 borde col-xs-6">
+                    <div class="col-lg-12 col-xs-12">
+                      <p class="fuente2 pequenho">Especializaci&oacute; en bla bla bla. Fundador del Centro de Estudio, con m&aacute;s de 25 a&ntilde;os de experiencia en la ense&ntilde;anza. Profesor de
+                      Matem&aacute;aticas en las siguientes &aacute;reas, algebra y aritmetica, geometria y trigonometria, matem&aacute;tica para contadores,
+                    administradores y economistas</p>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="col-lg-6 col-xs-6">
+                        <img src="img/whatsapplogo.png" class="pull-right" style="width:30px; height:30px;" alt="">
+                      </div>
+                      <div class="col-lg-6 col-xs-6">
+                        <p class="fuente2 pequenho pull-left">0981245636</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row borde espaciado">
+                  <div class="col-lg-4 borde col-xs-6">
+                    <div class="col-lg-12 col-centered borde">
+                      <img src="img/paraguay.png" class="icono" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 borde col-xs-6">
+                    <div class="col-lg-12 col-xs-12">
+                      <p class="fuente2 pequenho">Especializaci&oacute; en bla bla bla. Fundador del Centro de Estudio, con m&aacute;s de 25 a&ntilde;os de experiencia en la ense&ntilde;anza. Profesor de
+                      Matem&aacute;aticas en las siguientes &aacute;reas, algebra y aritmetica, geometria y trigonometria, matem&aacute;tica para contadores,
+                    administradores y economistas</p>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="col-lg-6 col-xs-6">
+                        <img src="img/whatsapplogo.png" class="pull-right" style="width:30px; height:30px;" alt="">
+                      </div>
+                      <div class="col-lg-6 col-xs-6">
+                        <p class="fuente2 pequenho pull-left">0981245636</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row borde espaciado">
+                  <div class="col-lg-4 borde col-xs-6">
+                    <div class="col-lg-12 col-centered borde">
+                      <img src="img/paraguay.png" class="icono" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 borde col-xs-6">
+                    <div class="col-lg-12 col-xs-12">
+                      <p class="fuente2 pequenho">Especializaci&oacute; en bla bla bla. Fundador del Centro de Estudio, con m&aacute;s de 25 a&ntilde;os de experiencia en la ense&ntilde;anza. Profesor de
+                      Matem&aacute;aticas en las siguientes &aacute;reas, algebra y aritmetica, geometria y trigonometria, matem&aacute;tica para contadores,
+                    administradores y economistas</p>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="col-lg-6 col-xs-6">
+                        <img src="img/whatsapplogo.png" class="pull-right" style="width:30px; height:30px;" alt="">
+                      </div>
+                      <div class="col-lg-6 col-xs-6">
+                        <p class="fuente2 pequenho pull-left">0981245636</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row borde espaciado">
+                  <div class="col-lg-4 borde col-xs-6">
+                    <div class="col-lg-12 col-centered borde">
+                      <img src="img/paraguay.png" class="icono" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 borde col-xs-6">
+                    <div class="col-lg-12 col-xs-12">
+                      <p class="fuente2 pequenho">Especializaci&oacute; en bla bla bla. Fundador del Centro de Estudio, con m&aacute;s de 25 a&ntilde;os de experiencia en la ense&ntilde;anza. Profesor de
+                      Matem&aacute;aticas en las siguientes &aacute;reas, algebra y aritmetica, geometria y trigonometria, matem&aacute;tica para contadores,
+                    administradores y economistas</p>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="col-lg-6 col-xs-6">
+                        <img src="img/whatsapplogo.png" class="pull-right" style="width:30px; height:30px;" alt="">
+                      </div>
+                      <div class="col-lg-6 col-xs-6">
+                        <p class="fuente2 pequenho pull-left">0981245636</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row borde espaciado">
+                  <div class="col-lg-4 borde col-xs-6">
+                    <div class="col-lg-12 col-centered borde">
+                      <img src="img/paraguay.png" class="icono" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 borde col-xs-6">
+                    <div class="col-lg-12 col-xs-12">
+                      <p class="fuente2 pequenho">Especializaci&oacute; en bla bla bla. Fundador del Centro de Estudio, con m&aacute;s de 25 a&ntilde;os de experiencia en la ense&ntilde;anza. Profesor de
+                      Matem&aacute;aticas en las siguientes &aacute;reas, algebra y aritmetica, geometria y trigonometria, matem&aacute;tica para contadores,
+                    administradores y economistas</p>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="col-lg-6 col-xs-6">
+                        <img src="img/whatsapplogo.png" class="pull-right" style="width:30px; height:30px;" alt="">
+                      </div>
+                      <div class="col-lg-6 col-xs-6">
+                        <p class="fuente2 pequenho pull-left">0981245636</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row borde espaciado">
+                  <div class="col-lg-4 borde col-xs-6">
+                    <div class="col-lg-12 col-centered borde">
+                      <img src="img/paraguay.png" class="icono" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 borde col-xs-6">
+                    <div class="col-lg-12 col-xs-12">
+                      <p class="fuente2 pequenho">Especializaci&oacute; en bla bla bla. Fundador del Centro de Estudio, con m&aacute;s de 25 a&ntilde;os de experiencia en la ense&ntilde;anza. Profesor de
+                      Matem&aacute;aticas en las siguientes &aacute;reas, algebra y aritmetica, geometria y trigonometria, matem&aacute;tica para contadores,
+                    administradores y economistas</p>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="col-lg-6 col-xs-6">
+                        <img src="img/whatsapplogo.png" class="pull-right" style="width:30px; height:30px;" alt="">
+                      </div>
+                      <div class="col-lg-6 col-xs-6">
+                        <p class="fuente2 pequenho pull-left">0981245636</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row borde espaciado">
+                <div class="col-centered col-lg-1">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <!--- El centro modal (fotos) --->
+    <div class="modal fade" id="el-centro-detalle" role="dialog">
+      <div class="modal-dialog">
+        <!--- Modal Content --->
+        <div class="modal-content">
+          <div class="container div-modal">
+            <div class="row borde">
+                <div class="col-lg-6 col-xs-6">
+                    <h2 class="section-heading">Nosotros</h2>
+                    <h4 class="section-subheading text-muted">Conozca el centro de estudio...</h4>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                  <div class="close-modal borde" data-dismiss="modal">
+                      <div class="lr">
+                          <div class="rl">
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 col-xs-12">
+                <img src="img/centro_estudio/foto1.jpg" class="img-responsive img-thumbnail" alt="">
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="img/centro_estudio/foto2.jpg" class="img-responsive img-thumbnail" alt="">
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="img/centro_estudio/foto3.jpg" class="img-responsive img-thumbnail" alt="">
+              </div>
+            </div>
+            <div class="row borde espaciado">
+              <div class="col-lg-4 col-xs-12">
+                <img src="img/centro_estudio/foto4.jpg" class="img-responsive img-thumbnail" alt="">
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="img/centro_estudio/foto5.jpg" class="img-responsive img-thumbnail" alt="">
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="img/centro_estudio/foto6.jpg" class="img-responsive img-thumbnail" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script>
+      function myFunction() {
+          var w = window.innerWidth;
+          var h = window.innerHeight;
+          document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+      }
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAldmf3lkNhjxDRxWYPjE6VZGZik6fMhZ0",
+        authDomain: "centro-de-estudio.firebaseapp.com",
+        databaseURL: "https://centro-de-estudio.firebaseio.com",
+        storageBucket: "centro-de-estudio.appspot.com",
+        messagingSenderId: "818265728119"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+  </body>
+</html>

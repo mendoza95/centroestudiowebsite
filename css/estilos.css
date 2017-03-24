@@ -1,0 +1,125 @@
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+    font-family: 'Lobster', cursive;
+
+}
+
+/* cambiar el color de fondo a la barra */
+nav.navbar a.navbar-brand, nav.navbar ul.nav li a{
+    font-size: 28px;
+    color: #2F4F4F;
+}
+
+.espaciado{
+  padding-bottom: 5%;
+}
+
+.arrow{
+  height: 75px;
+  width: 100px;
+}
+
+.icono{
+  height: 135px;
+  width: 135px;
+}
+
+.espaciado-materias{
+  padding-bottom: 5%;
+}
+
+.fuente1{
+  font-family: 'Lobster', cursive;
+}
+
+.color1{
+  color: #dcdcdc;
+}
+
+.fuente3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.color2{
+  color: #2F4F4F;
+}
+
+.mediano{
+  font-size: 28px;
+}
+
+.pequenho{
+  font-size: 20px;
+}
+
+
+.fuente2{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  opacity: 0.3;
+}
+
+.close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+
+@media only screen and (min-width: 100px), screen and (min-height: 100px)  {
+  .icono{
+    height: 95px;
+    width: 95px;
+  }
+}
+
+/*.borde{
+  border: 2px solid red;
+}
